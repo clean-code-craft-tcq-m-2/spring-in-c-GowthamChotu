@@ -2,7 +2,7 @@
 #include "math.h"
 #include "stats.h"
 
-typedef struct Stats compute_statistics(const float* numberset, int setlength) {
+    Stats compute_statistics(const float* numberset, int setlength) {
     //struct Stats s;
     Stats s;
     s.average = 0;
