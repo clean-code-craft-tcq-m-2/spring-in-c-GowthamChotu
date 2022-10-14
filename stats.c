@@ -18,7 +18,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     
     avg=sum/setlength;
     
-    small=numberset[0]
+    small=numberset[0];
     for(i=0; i<setlength; i++)
     {
         if(numberset[i]<small)
@@ -27,7 +27,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
         }
     }
     
-    larger=numberset[0]
+    larger=numberset[0];
     for(i=0; i<setlength; i++)
     {
         if(numberset[i]>larger)
