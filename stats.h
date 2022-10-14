@@ -1,5 +1,5 @@
 
-struct Stats compute_statistics(float* numberset, int setlength);
+struct Stats compute_statistics(const float* numberset, int setlength);
 //typedef struct Stats compute_statistics(const float* numberset, int setlength);
 
 typedef void (*alerter_funcptr)();
