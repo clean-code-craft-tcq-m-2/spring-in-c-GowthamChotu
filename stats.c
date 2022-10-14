@@ -3,8 +3,7 @@
 #include "stats.h"
 //#include "stats-test.cpp"
 
-    //struct Stats compute_statistics(const float* numberset, int setlength) {
-    compute_statistics(const float* numberset, int setlength) {
+    struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
     s.average = 0;
     s.min = 0;
