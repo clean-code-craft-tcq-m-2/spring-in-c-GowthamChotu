@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "math.h"
 #include "stats.h"
-#include "stats-test.cpp"
+//#include "stats-test.cpp"
 
-    struct Stats compute_statistics(const float* numberset, int setlength) {
-    //struct Stats s;
+    //struct Stats compute_statistics(const float* numberset, int setlength) {
+    compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
     s.average = 0;
     s.min = 0;
