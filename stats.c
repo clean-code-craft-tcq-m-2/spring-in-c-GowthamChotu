@@ -3,12 +3,9 @@
 #include "stats.h"
 //#include "stats-test.cpp"
 
-//struct Stats compute_statistics(const float* numberset, int setlength) {
-compute_statistics(const float* numberset, int setlength) {
+
+struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
-    s.average = 0;
-    s.min = 0;
-    s.max = 0;
     
     float sum=0.0, avg=0.0, small=0.0, larger=0.0;
     int i=0;
@@ -40,6 +37,11 @@ compute_statistics(const float* numberset, int setlength) {
     
     printf("AVG=%f, SMALL=%f, LARGER=%f", avg,small,larger);
     
+    s.average = avg;
+    s.min = small;
+    s.max = larger;
+    
+    return s;
     
 }
 
