@@ -1,3 +1,4 @@
+#include <stats.c>
 void emailAlerter()
 {
   //emailAlertCallCount = 1;
