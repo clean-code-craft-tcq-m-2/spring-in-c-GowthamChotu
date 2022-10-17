@@ -1,11 +1,11 @@
-#include <stats.c>
+#include <stats.h>
 void emailAlerter()
 {
-  //emailAlertCallCount = 1;
+  emailAlertCallCount = 1;
 
 }
 
 void ledAlerter()
 {
- //ledAlertCallCount = 1;
+ ledAlertCallCount = 1;
 }
