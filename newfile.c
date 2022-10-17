@@ -1,13 +1,10 @@
 void emailAlerter()
 {
-  //code part
-  
-  //return 0;
+  emailAlertCallCount = 1;
+
 }
 
 void ledAlerter()
 {
-  //code part
-  
-  //return 0;
+ ledAlertCallCount = 1;
 }
