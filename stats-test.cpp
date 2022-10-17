@@ -2,6 +2,7 @@
 //#include "stats.c"
 #include "catch.hpp"
 #include "stats.h"
+#include "newfile.h"
 
 #include <stdlib.h>
 #include <math.h>
