@@ -1,13 +1,13 @@
-int emailAlerter()
+void emailAlerter()
 {
   //code part
   
-  return 0;
+  //return 0;
 }
 
-int ledAlerter()
+void ledAlerter()
 {
   //code part
   
-  return 0;
+  //return 0;
 }
