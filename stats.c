@@ -38,7 +38,7 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
         }
     }
     
-    //printf("AVG=%f, SMALL=%f, LARGER=%f", avg,small,larger);
+    printf("AVG=%f, SMALL=%f, LARGER=%f", avg,small,larger);
     
     s.average = avg;
     s.min = small;
