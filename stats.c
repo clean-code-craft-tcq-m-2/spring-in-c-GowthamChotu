@@ -3,8 +3,8 @@
 #include "stats.h"
 #include "newfile.h"
 
-//int emailAlertCallCount = 0;
-//int ledAlertCallCount = 0;
+int emailAlertCallCount = 0;
+int ledAlertCallCount = 0;
 
 
 struct Stats compute_statistics(const float* numberset, int setlength) {
